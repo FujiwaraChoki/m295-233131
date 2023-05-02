@@ -5,7 +5,7 @@ const readFiles = (dirPath, fileExtension, callback) => {
     fs.readdir(dirPath, (err, data) => {
         if (err) return callback(err);
         data.map(file => {
-            if (file.endsWith(fileExtension)) {
+            if (file.endsWith(`.${fileExtension}`)) {
                 files.push(file);
             }
         });
