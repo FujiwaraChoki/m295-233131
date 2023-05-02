@@ -12,12 +12,16 @@ const server = http.createServer((req, res) => {
             minute: date.getMinutes(),
             second: date.getSeconds()
         });
-        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.writeHead(200, {
+            'Content-Type': 'application/json'
+        });
         res.end(json);
     } else if (parsedUrl.pathname === '/api/unixtime') {
         const unixtime = new Date(iso).getTime();
         const json = JSON.stringify({ unixtime: unixtime });
-        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.writeHead(200, {
+            'Content-Type': 'application/json'
+        });
         res.end(json);
     } else {
         res.writeHead(404);
