@@ -1,52 +1,72 @@
 [
     {
-        "name": "John Doe",
-        "date": "2023-03-05",
-        "ISBN": "9780446310789"
+        "id": "1",
+        "customer_id": "1123",
+        "borrowed_at": "2023-03-05",
+        "returned_at": "2023-03-12",
+        "isbn": "9780446310789"
     },
     {
-        "name": "Jane Doe",
-        "date": "2023-05-07",
-        "ISBN": "9780446310789"
+        "id": "2",
+        "customer_id": "2145",
+        "borrowed_at": "2023-05-07",
+        "returned_at": null,
+        "isbn": "9780446310789"
     },
     {
-        "name": "Bob Smith",
-        "date": "2023-04-12",
-        "ISBN": "9780743273565"
+        "id": "3",
+        "customer_id": "3187",
+        "borrowed_at": "2023-04-12",
+        "returned_at": "2023-04-20",
+        "isbn": "9780743273565"
     },
     {
-        "name": "Alice Johnson",
-        "date": "2023-03-27",
-        "ISBN": "9780451524935"
+        "id": "4",
+        "customer_id": "4159",
+        "borrowed_at": "2023-03-27",
+        "returned_at": "2023-04-03",
+        "isbn": "9780451524935"
     },
     {
-        "name": "Eve Williams",
-        "date": "2023-04-05",
-        "ISBN": "9780141439518"
+        "id": "5",
+        "customer_id": "5231",
+        "borrowed_at": "2023-04-05",
+        "returned_at": "2023-04-10",
+        "isbn": "9780141439518"
     },
     {
-        "name": "Tom Brown",
-        "date": "2023-05-01",
-        "ISBN": "9780141439518"
+        "id": "6",
+        "customer_id": "6123",
+        "borrowed_at": "2023-05-01",
+        "returned_at": null,
+        "isbn": "9780141439518"
     },
     {
-        "name": "Sarah Adams",
-        "date": "2023-04-18",
-        "ISBN": "9780060883287"
+        "id": "7",
+        "customer_id": "7185",
+        "borrowed_at": "2023-04-18",
+        "returned_at": "2023-04-24",
+        "isbn": "9780060883287"
     },
     {
-        "name": "David Lee",
-        "date": "2023-04-25",
-        "ISBN": "9780316769488"
+        "id": "8",
+        "customer_id": "8147",
+        "borrowed_at": "2023-04-25",
+        "returned_at": "2023-05-01",
+        "isbn": "9780316769488"
     },
     {
-        "name": "Emma Davis",
-        "date": "2023-03-15",
-        "ISBN": "9780261102217"
+        "id": "9",
+        "customer_id": "9234",
+        "borrowed_at": "2023-03-15",
+        "returned_at": "2023-03-20",
+        "isbn": "9780261102217"
     },
     {
-        "name": "Jake Taylor",
-        "date": "2023-05-02",
-        "ISBN": "9780143105954"
+        "id": "10",
+        "customer_id": "1025",
+        "borrowed_at": "2023-05-02",
+        "returned_at": null,
+        "isbn": "9780143105954"
     }
 ]
