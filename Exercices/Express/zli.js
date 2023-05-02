@@ -53,7 +53,7 @@ app.get('/xml', (req, res) => {
 });
 
 app.get('/me', (req, res) => {
-    res.status(200).send({
+    res.status(200).json({
         vorname: 'Sami',
         nachname: 'Hindi',
         alter: 16,
