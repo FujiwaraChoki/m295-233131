@@ -1,9 +1,8 @@
-const calculate = (num1, num2) => {
-    return num1 + num2;
+const verdoppeln = (zahl, callback) => {
+    const ergebnis = zahl * 2;
+    callback(ergebnis);
 }
 
-const printResult = (num1, num2, func) => {
-    console.log(func(num1, num2))
-}
-
-printResult(2, 3, calculate);
+verdoppeln(5, (ergebnis) => {
+    console.log("Das Ergebnis ist: " + ergebnis);
+});
