@@ -1,6 +1,9 @@
 {
+  "type": "module",
   "dependencies": {
     "bl": "^6.0.1",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "node-fetch": "^3.3.1"
   }
 }
